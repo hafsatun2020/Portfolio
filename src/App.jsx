@@ -32,7 +32,7 @@ function App() {
           <section id='about'> 
           <img src={hafsat} alt="hafsat nasidi" />
           <div className='about-text'>
-          <h1>Hi!  I am Hafsat</h1>
+          <h1>Hi!<br></br>  I am Hafsat</h1>
             <p>I am dabbling in web development</p>
           </div>
             
