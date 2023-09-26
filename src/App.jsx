@@ -11,6 +11,8 @@ function App() {
     key={card.id}
     img={card.img}
     tag={card.tag}
+    demo={card.demo}
+    github={card.github}
     
     />)
   return (
@@ -29,8 +31,11 @@ function App() {
       <main>
           <section id='about'> 
           <img src={hafsat} alt="hafsat nasidi" />
-            <h1>Hi I am Hafsat</h1>
+          <div className='about-text'>
+          <h1>Hi I am Hafsat</h1>
             <p>I am dabbling in web development</p>
+          </div>
+            
           </section>
           <section id='projects'> 
             <h2>These are my projects</h2>
