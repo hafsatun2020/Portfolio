@@ -23,7 +23,7 @@ function App() {
           <ul>
             <a href="#about"><li>About</li></a>
             <a href="#projects"><li>Projects</li></a>
-            <a href="#contact"><li>Contact Me</li></a>
+            <a href="#contact"><li>Contact</li></a>
           </ul>
         </nav>
         
@@ -32,13 +32,13 @@ function App() {
           <section id='about'> 
           <img src={hafsat} alt="hafsat nasidi" />
           <div className='about-text'>
-          <h1>Hi I am Hafsat</h1>
+          <h1>Hi!  I am Hafsat</h1>
             <p>I am dabbling in web development</p>
           </div>
             
           </section>
           <section id='projects'> 
-            <h2>These are my projects</h2>
+            <h1>These are my projects</h1>
             <div className='project'>
             {cardArr}
 
@@ -47,7 +47,7 @@ function App() {
             </section>
             <section id='contact'> 
             <div className='left'>
-            <h1>Contact ME</h1>
+            <h1>Contact Me</h1>
                 <p>I would love to here what you have to  say! I will reply as soon as i can!
                  </p>
                 
