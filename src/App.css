@@ -1,0 +1,184 @@
+*{
+  box-sizing: border-box;
+}
+
+
+:root {
+  --intro-and-email-sign-up-background: hsl(217, 28%, 15%);
+--main-background: hsl(218, 28%, 13%);
+--footer-background: hsl(216, 53%, 9%);
+--testimonials-background: hsl(219, 30%, 18%);
+}
+
+
+
+body{
+  background-color: #23252C;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+nav{
+  width: 100%;
+ max-height: 100px; height: 5%;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #161619;
+  padding: 2rem;
+  color: gray;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+nav ul li {
+  margin: 10px;
+}
+nav ul a {
+  text-decoration: none;
+  color: white;
+}
+nav h1 {
+  color: white;
+}
+#about{
+  width: 100%;
+  height: 100vh;
+ background-color: #23252C;
+ margin: 0;
+
+}
+img{
+  width: 200px;
+  height: 200px;
+  
+}
+.card{
+  margin: 10px;
+}
+ #contact{
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem;
+}
+
+ #projects{
+  margin: 0;
+  width: 100%;
+  background-color: #161619;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#projects > h1 {
+  margin: 0;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 2rem;
+}
+.project{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;}
+
+#contact > .left{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  color: black;
+  text-align: left;
+  margin: 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+textarea{
+
+  outline: none;
+  border: none;
+  color: white;
+  margin:10px;
+  padding: 20px;
+  border-bottom: 1px silver solid;
+  resize: none;
+  background-color: #23252C;
+
+}
+
+ input{
+  background-color: #23252C;
+  outline: none;
+  border: none;
+  color: white;
+  margin:10px;
+  padding: 20px;
+  border-bottom: 1px silver solid;
+}
+#contact button {
+  background-color: #23252C;
+  outline: none;
+  border: none;
+  margin:10px;
+  padding: 20px;
+  color: white;
+  border-bottom: 1px silver solid;
+  width: 40%;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #161619;
+  padding: 2rem;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.icons {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #161619;
+  height: 64px;
+  border-radius: 0px 0px 10px 10px;
+
+}
+
+.icons .fa-brands {
+margin-left: 10px;
+padding: 5px;
+color: white;
+height: 30px;
+width: 30px;
+text-align: center;
+font-size: 20px;
+font-size: 1.5rem;
+}
