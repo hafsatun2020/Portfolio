@@ -38,7 +38,9 @@ export default [
     {
         img: orderApp,
         id: 6,
-        tag: 'Food Ordering app'
+        tag: 'Food Ordering app',
+        demo: 'https://fastidious-halva-9e3226.netlify.app/',
+        github: ''
     },
     {
         img: Conv,
